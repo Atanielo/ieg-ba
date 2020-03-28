@@ -13,7 +13,6 @@ from decouple import config
 import os
 from dj_database_url import parse as dburl
 from dj_static import Cling
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
